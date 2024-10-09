@@ -62,3 +62,33 @@
 #posters{
     width: 100%;
 }
+.event{
+    color: #000;
+    opacity: 0.9;
+    padding-left: 147px;
+    padding-top: 5%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+}
+.sub2{
+    width: 90%;
+    padding-top: 0;
+    padding-left: 105px;
+    padding-top: 15px;
+    height: 250px;
+    position: relative;
+
+}
+.events {
+    position: relative;
+    width: 99%;
+    align-items: center;
+    scroll-behavior: smooth;
+    padding-left: 10px;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: visible;
+}
