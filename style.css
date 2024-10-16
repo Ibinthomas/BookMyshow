@@ -169,6 +169,83 @@ footer .btn-danger {
 footer .btn-danger:hover {
     background-color: #e04545;
 }
+.para{
+    color: rgb(128, 124, 124);
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* second page */
+
+#main1{
+    position: relative;
+    background-size: cover;
+    height: 670px;
+    background-image: url(img/arm1.jpg);
+}
+#main1::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+}
+#main2{
+    position: relative;
+    z-index: 2;
+    left: 24%;
+}
+.movietitle{
+    color: black;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+#star {
+    color: red;
+    font-size: 27px;
+  }
+  
+  .rating .score {
+    font-size: 1.5rem;
+    margin-left: 5px;
+  }
+  
+  .rating .votes {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .rate-btn {
+    margin-left: 15px;
+    font-size: 0.9rem;
+  }
+  .moviedetail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .moviedetail span {
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  #book{
+    background-color: rgb(248,68,100);
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 15px 49px;
+    font-size: 17px;
+    position: relative;
+    top: 45px;
+    
+}
 
 /* Responsive Styling */
 @media (max-width: 768px) {
